@@ -176,13 +176,9 @@ Tone: minimal
 
 ---
 
-## Future Improvements
+## Working On
 
-- CLI tool (npx aso-gen)
-- Keyword import (CSV)
-- Multi-language support
-- A/B testing variants
-- Competitor keyword insights
+- Integrate other available skills into ours such as Screenshots Maker, Appstore Connect CLI, to fully automate your app submission process with AI.
 
 ---
 
