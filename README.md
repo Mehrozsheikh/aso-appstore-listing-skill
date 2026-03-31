@@ -28,20 +28,28 @@ This Claude Code skill helps you create a complete App Store listing for your ap
 
 ## Installation
 
-### Option 1: Install via GitHub
-
-claude install-skill github.com/mehrozsheikh/aso-appstore-listing-skill
-
----
-
-### Option 2: Manual Installation (ZIP)
+### Claude Desktop
 
 1. Download this repository as a ZIP file
-2. Open Claude Code
+2. Open Claude Desktop
 3. Go to **Customize** (from sidebar)
 4. Navigate to **Skills**
 5. Click **"+" → Upload a skill**
 6. Select the downloaded ZIP file
+
+---
+
+### Claude Terminal (Direct/Personal Use)
+
+Clone your skill repo into your project's `.claude/skills/` directory:
+
+```bash
+git clone https://github.com/Mehrozsheikh/aso-appstore-listing-skill /Users/{USERNAME}/./.claude/skills/aso-appstore-listing-skill
+```
+
+- Replace `{USERNAME}` with your actual username, or use the full path to wherever your `./.claude/skills` exists
+- Alternatively: download the ZIP file from GitHub, then open your `~/.claude/skills` folder and place the unzipped folder inside it
+- Ready to use immediately
 
 ---
 
@@ -63,6 +71,18 @@ claude install-skill github.com/mehrozsheikh/aso-appstore-listing-skill
 
 ---
 
+## Optional: Astro MCP (Real-Time ASO Data)
+
+You can optionally connect Astro MCP to improve keyword quality with real-time rankings, ratings, and app store data.
+
+- Astro is **optional** (the skill works without it)
+- Learn more or install Astro: https://tryastro.app/?aff=kdX8mz
+- Setup docs: https://tryastro.app/docs/mcp/
+
+> Astro MCP is currently in beta. Always verify outputs before making strategic ASO decisions.
+
+---
+
 ## How It Works
 
 ### 1. Input Understanding
@@ -73,6 +93,7 @@ Collects your app idea, audience, and features.
 
 - Uses provided keyword data OR
 - Generates keywords based on intent and category
+- If Astro MCP is enabled, can use real-time Astro data for stronger recommendations
 
 ### 3. Listing Generation
 
