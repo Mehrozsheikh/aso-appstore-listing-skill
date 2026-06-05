@@ -178,7 +178,7 @@ Tone: minimal
 
 ## Working On
 
-- Integrate other available skills into ours such as Screenshots Maker, Appstore Connect CLI, to fully automate your app submission process with AI.
+- Integrate other available skills into ours such as Screenshots Maker, Appstore Connect CLI, to fully automate your app submission process with AI
 
 ---
 
